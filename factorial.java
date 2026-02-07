@@ -1,15 +1,13 @@
-class fact {
-   fact() {
-   }
+class Fact {
+    public static void main(String[] args) {
+        int n = 6;
+        int fact = 1;
 
-   public static void main(String[] var0) {
-      byte var1 = 6;
-      int var2 = 1;
+        for (int i = 1; i <= n; i++) {
+            fact = fact * i;
+        }
 
-      for(int var3 = 1; var3 <= var1; ++var3) {
-         var2 *= var3;
-      }
-
-      System.out.print("factorial of 6 is :" + var2);
-   }
+        System.out.println("Factorial of " + n + " is: " + fact);
+    }
 }
+
