@@ -11,9 +11,9 @@ class Dog extends Animal {
 }
 
 public class Main {
-    public static void main(String[] args) {
+    public static void main(String args[]) {
         Dog d = new Dog();
         d.speak();  
-        d.bark();   // Dog's own method
+        d.bark();  
     }
 }
